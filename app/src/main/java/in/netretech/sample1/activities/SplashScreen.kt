@@ -62,6 +62,7 @@ class SplashScreen : AppCompatActivity() {
         }
 
         recycler_button.setOnClickListener {
+            showtoast("value change",Toast.LENGTH_LONG)
             val intent = Intent(this, ThirdActivity::class.java)
             startActivity(intent)
         }
