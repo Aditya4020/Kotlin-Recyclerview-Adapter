@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Kotlinsample</string>
+    <string name="app_buttonname">Recycle Button</string>
+</resources>
